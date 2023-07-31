@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, KC_MUTE, \
         _______, RGB_SPD, RGB_VAI, RGB_SPI, RGB_HUI, RGB_SAI, _______, U_T_AUTO,U_T_AGCR,_______, KC_PSCR, KC_SLCK, KC_PAUS, CH_DLR,  KC_END,  \
         _______, RGB_RMOD,RGB_VAD, RGB_MOD, RGB_HUD, RGB_SAD, _______, _______, _______, _______, _______, _______,          _______, KC_VOLU, \
-        _______, RGB_TOG, RGB_M_P, _______, _______, MD_BOOT, NK_TOGG, DBG_TOG, _______, _______, _______, _______,          KC_PGUP, KC_VOLD, \
+        _______, RGB_TOG, RGB_M_P, _______, _______, MD_BOOT, NK_TOGG, DBG_TOG, _______, _______, CH_LABK, _______,          KC_PGUP, KC_VOLD, \
         _______, _______, _______,                            _______,                            TG(2),   _______, KC_HOME, KC_PGDN, KC_END   \
     ),
     [2] = LAYOUT_65_ansi_blocker(  // Mac layout with swapped meta and alt keys, other keys should be passed through to the default layer
