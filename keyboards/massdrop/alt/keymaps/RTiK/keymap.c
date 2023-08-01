@@ -1,5 +1,5 @@
 #include QMK_KEYBOARD_H
-#include "keymap_german_ch.h"
+#include "keymap_swiss_de.h"
 
 enum alt_keycodes {
     U_T_AUTO = SAFE_RANGE, //USB Extra Port Toggle Auto Detect / Always Active
