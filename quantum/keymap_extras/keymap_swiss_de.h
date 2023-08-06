@@ -58,7 +58,7 @@
 #define CH_D    KC_D    // D
 #define CH_F    KC_F    // F
 #define CH_G    KC_G    // G
-#define CH_H    KC_H    // H
+//#define CH_H    KC_H    // H
 #define CH_J    KC_J    // J
 #define CH_K    KC_K    // K
 #define CH_L    KC_L    // L
